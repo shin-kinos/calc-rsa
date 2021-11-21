@@ -67,6 +67,12 @@ The RSA of each residue is scaled as a proportion to the ASA of Ala-X-Ala tripep
 
 As additional information, the residues are derived into **three** types of residue state on the protein, buried (RSA < 9%), intermediate (9% ≦ RSA ≦ 36%) or exposed (RSA > 36%), based on Rost and Sander's description [4]. 
 
+## Input file format 
+
+`mmCIF` or `PDB`. 
+
+See some example files in `demo` directoly. 
+
 ## Usage 
 
 Options : 

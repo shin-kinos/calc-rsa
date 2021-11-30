@@ -30,7 +30,7 @@ pub fn detect_state( rsa_list : &Vec<f64> ) -> Vec<&str>
 	let mut state_list : Vec<&str> = Vec::new();
 
 	/*
-	 * Divide the residues into 3 type based on their RSA. 
+	 * Divide the residues into 3 types based on their RSA. 
 	 * Beried                       : RSA < 9%
 	 * Intermediate ( semi-beried ) : 9%  ≦ RSA ≦ 36%
 	 * Exposed                      : RSA > 36%
